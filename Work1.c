@@ -11,8 +11,9 @@ int main(void) {
     
     //prompt uesr for char
     printf("Enter a character: ");
-    scanf("%c", &input);
+    scanf("%c", &input);    
 
+    //check for lower upper or number(following ASCII)
     if(input>=48 && input<=57) {
         printf("This is a number\n");
     } else if(input >= 97 && input <= 122) {
